@@ -1,10 +1,8 @@
 import React from "react";
-
-import "./icons.scss";
+import "../../../../public/styles/components/form/icons.scss";
 
 const FormIcons = (props) => {
 	const { formConfigs, showContent, selectedAcc } = props;
-
 	return (
 		<div className="formIcons">
 			{formConfigs.map((formConfig = {}, i) => {
